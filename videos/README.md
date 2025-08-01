@@ -40,11 +40,11 @@ This folder contains demo videos for the portfolio projects. Please add the foll
    - Quality: 720p or higher
    - Content: Show the AI classifying different recycling materials
 
-7. **computer-vision-apps-demo.mp4** - Computer vision applications project demo
+7. **fish-classification-demo.mp4** - Fish classification research project demo
    - Duration: 1-3 minutes
    - Format: MP4
    - Quality: 720p or higher
-   - Content: Show various computer vision applications in action
+   - Content: Show the CNN model classifying different fish species
 
 ## Video Specifications:
 

@@ -37,29 +37,29 @@ const projectData = {
         demo: "-"
     },
     project5: {
-        title: "2024 Teknofest İnsansız Deniz Altı Yarışması",
-        summary: "Su altı robotik sistemleri ve otonom navigasyon teknolojileri ile geliştirilmiş kapsamlı proje. Bu proje, su altı ortamında çalışabilen robotik sistemlerin tasarımı, geliştirilmesi ve kontrolü üzerine odaklanmıştır. Computer vision teknolojileri kullanılarak su altı nesnelerinin tespiti ve tanınması, otonom navigasyon algoritmaları ile rota planlaması ve gerçek zamanlı veri işleme özellikleri içermektedir. Teknofest yarışmasında kullanılmış ve su altı robotik teknolojilerinde öncü çözümler sunmuştur.",
-        technologies: ["Robotics", "Computer Vision", "Autonomous Navigation", "Python", "OpenCV", "Sensor Integration", "Real-time Processing"],
+        title: "2024 Teknofest Unmanned Underwater Vehicle Competition",
+        summary: "A comprehensive project developed with underwater robotic systems and autonomous navigation technologies. This project focuses on the design, development, and control of robotic systems capable of operating in underwater environments. It incorporates underwater object detection and recognition using computer vision technologies, route planning with autonomous navigation algorithms, and real-time data processing capabilities. It was used in the Teknofest competition and has pioneered innovative solutions in underwater robotic technologies.",
+        technologies: ["Robotics", "Computer Vision", "Autonomous Navigation", "Python", "OpenCV", "Real-time Processing"],
         image: "images/underwater-competition.jpg",
         video: "videos/underwater-competition-demo.mp4",
         github: "https://github.com/KeremTingir/",
         demo: "-"
     },
     project6: {
-        title: "Geri Dönüşüm Malzemesi Sınıflandırma Projesi",
-        summary: "Yapay zeka destekli geri dönüşüm malzemelerini otomatik sınıflandırma sistemi. Bu proje, convolutional neural networks (CNN) kullanarak farklı geri dönüşüm malzemelerini (plastik, cam, kağıt, metal vb.) otomatik olarak tanımlar ve sınıflandırır. TensorFlow framework'ü kullanılarak geliştirilmiş derin öğrenme modeli, yüksek doğruluk oranı ile malzeme türlerini tespit eder. Sistem, geri dönüşüm süreçlerinin otomasyonu ve verimliliğinin artırılması amacıyla tasarlanmıştır. Çevre dostu teknolojilerin geliştirilmesine katkı sağlayan önemli bir projedir.",
-        technologies: ["Machine Learning", "CNN", "TensorFlow", "Computer Vision", "Image Classification", "Deep Learning", "Python"],
+        title: "Recycling Material Classification Project",
+        summary: "Artificial intelligence-supported automatic classification system for recycled materials. This project uses convolutional neural networks (CNN) to automatically identify and classify different recycled materials (plastic, glass, paper, metal, etc.). The deep learning model developed using YOLO detects material types with a high accuracy rate. The system is designed to automate recycling processes and increase efficiency. It is an important project that contributes to the development of environmentally friendly technologies.",
+        technologies: ["YOLO", "Google Colab", "Python", "Computer Vision", "Image Classification", "Deep Learning", "Pyside6"],
         image: "images/recycling-classification.jpg",
         video: "videos/recycling-classification-demo.mp4",
         github: "https://github.com/KeremTingir/",
         demo: "-"
     },
     project7: {
-        title: "Bilgisayarlı Görü Örnek Uygulamaları",
-        summary: "Computer vision teknolojilerini gösteren çeşitli örnek uygulamalar koleksiyonu. Bu proje, OpenCV kütüphanesi kullanılarak geliştirilmiş farklı computer vision uygulamalarını içerir. Yüz tanıma, nesne tespiti, hareket analizi, renk filtreleme, kenar tespiti gibi temel computer vision algoritmalarının pratik uygulamalarını gösterir. Her uygulama, gerçek zamanlı görüntü işleme özelliklerine sahiptir ve kullanıcıların computer vision teknolojilerini öğrenmesi ve deneyimlemesi için tasarlanmıştır. Eğitim amaçlı olarak da kullanılabilen kapsamlı bir proje koleksiyonudur.",
-        technologies: ["OpenCV", "Image Processing", "Python", "Real-time Detection", "Face Recognition", "Object Detection", "Computer Vision"],
-        image: "images/computer-vision-apps.jpg",
-        video: "videos/computer-vision-apps-demo.mp4",
+        title: "TÜBİTAK 2209-A Research Project - Fish Classification",
+        summary: "A research project conducted under the TÜBİTAK 2209-A Undergraduate Research Projects Support Program. This project focuses on fish species classification using deep learning techniques, specifically Convolutional Neural Networks (CNN). The research aims to develop an automated system for identifying and classifying different fish species from underwater images. The project involves data collection, preprocessing, model training, and evaluation of classification accuracy. This academic research contributes to marine biology studies and demonstrates the application of artificial intelligence in biological classification tasks.",
+        technologies: ["CNN", "Classification", "Python", "Deep Learning", "Image Processing", "TensorFlow", "Data Analysis"],
+        image: "images/fish-classification.jpg",
+        video: "videos/fish-classification-demo.mp4",
         github: "https://github.com/KeremTingir/",
         demo: "-"
     }

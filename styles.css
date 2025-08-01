@@ -601,6 +601,39 @@ body {
     box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);
 }
 
+/* Demo Video Button Styles */
+.demo-video-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #4caf50, #45a049);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
+}
+
+.demo-video-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+    background: linear-gradient(135deg, #45a049, #388e3c);
+}
+
+.demo-video-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+.demo-video-btn i {
+    font-size: 16px;
+}
+
 /* Footer */
 .footer {
     background-color: #1a1a1a;

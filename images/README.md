@@ -34,10 +34,10 @@ This folder contains images for the portfolio projects. Please add the following
    - Format: JPG/PNG
    - Placeholder: https://via.placeholder.com/800x600/2c3e50/ffffff?text=Recycling+Classification
 
-7. **computer-vision-apps.jpg** - Computer vision applications project screenshot
+7. **fish-classification.jpg** - Fish classification research project screenshot
    - Recommended size: 800x600px
    - Format: JPG/PNG
-   - Placeholder: https://via.placeholder.com/800x600/2c3e50/ffffff?text=Computer+Vision+Apps
+   - Placeholder: https://via.placeholder.com/800x600/2c3e50/ffffff?text=Fish+Classification
 
 ## Instructions:
 
