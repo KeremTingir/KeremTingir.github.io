@@ -162,9 +162,36 @@ contactForm.addEventListener('submit', (e) => {
         return;
     }
     
-    // Simulate form submission
-    showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
-    contactForm.reset();
+    // Show loading state
+    const submitBtn = contactForm.querySelector('.submit-btn');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'Sending...';
+    submitBtn.disabled = true;
+    
+    // Submit form to Formspree
+    fetch(contactForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
+            contactForm.reset();
+        } else {
+            throw new Error('Failed to send message');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        showNotification('Sorry, there was an error sending your message. Please try again.', 'error');
+    })
+    .finally(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    });
 });
 
 // Email validation function
